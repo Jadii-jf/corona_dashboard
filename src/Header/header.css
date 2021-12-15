@@ -1,0 +1,35 @@
+.header{
+    
+}
+.flexBox{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+}
+.logoImgBox{
+    flex: 1;
+}
+.coronaImgBox{
+    flex: .5;
+    margin-bottom: 10px;
+    position: relative;
+}
+.iconBox{
+    flex: 1 1;
+    text-align: right;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icon{
+    margin: 0px 5px;
+}
+.coronaImg{
+    min-width: 238px;
+    max-width: 238px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: -60px;
+}

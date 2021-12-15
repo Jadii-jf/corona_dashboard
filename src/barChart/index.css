@@ -1,0 +1,16 @@
+.barChart{
+    flex: 1;
+    margin-top: 14px;
+    width: 50%;
+    position: relative;
+}
+.barchartImgbox{
+    position: absolute;
+    top: -54px;
+    left: 307px;
+}
+.barchartCorona{
+    position: absolute;
+    width: 175px;
+   
+}

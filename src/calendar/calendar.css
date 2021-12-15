@@ -1,0 +1,18 @@
+.calendar{
+border: 1px solid;
+}
+.actualCalendar{
+    border: none !important;
+}
+.buttonBox{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.buttonBox button{
+    padding: 4px;
+    width: 70px;
+    margin: 12px;
+    border: 1px solid;
+    border-radius: 4px;
+}

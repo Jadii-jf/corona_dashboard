@@ -1,0 +1,26 @@
+.pieChartLine{
+}
+.pieMainBox{
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    padding-right: 12px;
+}
+.dotBox{
+    background: #dbd3d3;
+    display: grid;
+    border-radius: 8px;
+    place-items: center;
+}
+.smBoxFlex{
+    display: flex;
+    align-items: center;
+    margin: 4px;
+}
+.colorBox{
+width: 10px;
+height: 10px;
+}
+.smName{
+margin-left: 5px;
+}

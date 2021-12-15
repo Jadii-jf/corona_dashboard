@@ -1,0 +1,90 @@
+.widgetLg{
+    flex: 2 1;
+    box-shadow: 0px 0px 15px -10px rgb(0 0 0 / 75%);
+    padding: 20px;
+    overflow-y: scroll;
+    height: 306px;
+    position: relative;
+}
+.widgetLgImg{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.widgetLgDate,.widgetLgAmount{
+    font-weight: 300;
+}
+.widgetLgButton{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+.widgetLgButton.Approved{
+background-color: #e5faf2;
+color:#3bb077;
+}
+.widgetLgButton.Declined{
+background-color: #fff0f1;
+color: #d95087;
+}
+.widgetLgButton.Pending{
+    background-color: #ebf1fe;
+color: #2a7ade;
+}
+.widgetLgTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+.widgetLgTh{
+    text-align: left;
+    border-bottom: 2px solid;
+}
+.widgetLgUser{
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+}
+.widgetLgTrHead{
+    background: whitesmoke;
+    height: 40px;
+}
+.downdladCsv{
+    display: flex;
+    justify-content: space-around;
+    background: #f3f3f3;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.widgetLgStatus{
+    background: #3ce93c;
+    border-radius: 6px;
+    padding-left: 6px;
+}
+.widgetFlex{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.widgetflexBox{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.widgetImgbox{
+    position: absolute;
+    top: -43px;
+    left: 194px;
+}
+.widgetCorona{
+width: 200px;
+}
+.setWrapper{
+    background: #e1dcdc;
+    width: 33px;
+    border-radius: 7px;
+    display: grid;
+    place-items: center;
+}
